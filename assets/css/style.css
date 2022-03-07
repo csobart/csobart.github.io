@@ -1831,20 +1831,10 @@ ul.details-list li:last-child {
   z-index: 1;
 }
 
-@media screen and (max-width: 480px) {
-  .landing-hero {
-    background: url('../images/hero-bg/banner1.png');
+.landing-hero {
+  background: url('../images/hero-bg/banner1.png');
 
-    background-size: contain;
-  }
-}
-
-@media screen and (max-width: 3000px) {
-  .landing-hero {
-    background: url('../images/hero-bg/banner1.png');
-
-    background-size: cover;
-  }
+  background-size: contain;
 }
 
 /*--------------------
