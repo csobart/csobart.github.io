@@ -67,7 +67,7 @@ html {
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'ccmeanwhile', sans-serif;
   color: #737272;
   line-height: 24px;
   font-size: 13px;
@@ -715,7 +715,7 @@ ul.caption-slides li {
 }
 
 .big-title-sec .big-subtitle {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'ccmeanwhile', sans-serif;
   letter-spacing: 1.3px;
   margin-top: 0;
   margin-bottom: 28px;
@@ -1825,7 +1825,7 @@ ul.details-list li:last-child {
   content: '';
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.5);
+  /* background: rgba(0, 0, 0, 0.5); */
   width: 100%;
   height: 100%;
   z-index: 1;
@@ -1834,7 +1834,7 @@ ul.details-list li:last-child {
 .landing-hero {
   background: url('../images/hero-bg/banner1.png');
 
-  background-size: contain;
+  background-size: cover;
 }
 
 /*--------------------
