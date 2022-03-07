@@ -1832,10 +1832,22 @@ ul.details-list li:last-child {
   z-index: 1;
 }
 
+/*--------------------
+  Mobile
+----------------------*/
+
 .landing-hero {
-  background: url('../images/hero-bg/banner2.png');
+  background: url('../images/hero-bg/banner1\ \(website\ 3\).png');
 
   background-size: cover;
+}
+
+@media only screen and (min-width: 768px) {
+  .landing-hero {
+    background: url('../images/hero-bg/banner1\ \(website\ 3\).png');
+
+    background-size: contain;
+  }
 }
 
 /*--------------------
