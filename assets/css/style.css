@@ -167,10 +167,13 @@ h3,
 
 h1,
 .h1 {
-  font-family: 'Abel', sans-serif;
+  /* font-family: 'Abel', sans-serif;
   font-size: 46px;
   font-weight: 400;
-  letter-spacing: 2px;
+  letter-spacing: 2px; */
+  font-family: ccmeanwhile, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h2 {
@@ -209,7 +212,7 @@ p {
 }
 
 .pad-sec {
-  padding: 100px 0 !important;
+  padding: 30px 0 !important;
 }
 
 .title-section {
@@ -1828,9 +1831,20 @@ ul.details-list li:last-child {
   z-index: 1;
 }
 
-.landing-hero {
-  background: url('../images/hero-bg/banner1.png');
-  background-size: cover;
+@media screen and (max-width: 480px) {
+  .landing-hero {
+    background: url('../images/hero-bg/banner1.png');
+
+    background-size: contain;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .landing-hero {
+    background: url('../images/hero-bg/banner1.png');
+
+    background-size: cover;
+  }
 }
 
 /*--------------------
