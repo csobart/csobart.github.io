@@ -76,6 +76,7 @@ body {
   padding-top: 68px;
   position: relative;
   overflow-x: hidden;
+  background-color: #f2ebe6;
 }
 
 a {
@@ -1832,7 +1833,7 @@ ul.details-list li:last-child {
 }
 
 .landing-hero {
-  background: url('../images/hero-bg/banner1.png');
+  background: url('../images/hero-bg/banner4.png');
 
   background-size: cover;
 }
