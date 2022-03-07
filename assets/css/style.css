@@ -1839,7 +1839,7 @@ ul.details-list li:last-child {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 3000px) {
   .landing-hero {
     background: url('../images/hero-bg/banner1.png');
 
