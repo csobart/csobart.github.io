@@ -205,12 +205,12 @@ p {
   width: 15%;
 }
 
-/* .title-section p {
+.title-section p {
   font-size: 15px;
   line-height: 26px;
   font-weight: 400;
   letter-spacing: 1.5px;
-} */
+}
 
 @media screen and (min-width: 601px) {
   .title-section p {
@@ -2139,7 +2139,7 @@ ul.testimonials-slider li img {
 }
 
 ul.testimonials-slider li p {
-  font-size: 16px;
+  font-size: 12px;
   line-height: 28px;
   font-weight: 400;
   margin: 0 0 20px;
@@ -3296,7 +3296,7 @@ p.copyright {
   }
 
   .big-title-sec .big-subtitle {
-    font-size: 28px;
+    font-size: 20px;
   }
 
   .big-title-sec p {
