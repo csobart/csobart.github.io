@@ -508,7 +508,7 @@ p {
 /***********************************************************************************************/
 
 #hero-section {
-  /* position: relative; */
+  position: relative;
   display: table;
   width: 100%;
 }
@@ -1088,10 +1088,10 @@ span.percentfactor {
 }
 
 .member-team .magnifier .magnifier-inner p {
-  font-size: 10px;
+  font-size: 12px;
   color: #999;
   line-height: 24px;
-  margin-bottom: 5px;
+  margin-bottom: 40px;
 }
 
 .member-team .magnifier .magnifier-inner ul.social-icons {
@@ -1837,7 +1837,7 @@ ul.details-list li:last-child {
 ----------------------*/
 
 .landing-hero {
-  background: url('../images/screenshots/NFT\ 7.png');
+  background: url('../images/hero-bg/banner1\ \(website\ 3\).png');
 
   background-size: cover;
 }
@@ -2167,11 +2167,11 @@ ul.testimonials-slider li p {
 }
 
 .tc-arrow-left {
-  margin-right: 20px;
+  margin-right: 2px;
 }
 
 .tc-arrow-right {
-  margin-left: 20px;
+  margin-left: 1px;
 }
 
 .tc-arrow-left .fa,
@@ -3070,7 +3070,7 @@ p.copyright {
 
 .back-to-top {
   text-align: center;
-  background: #726e6e;
+  background: #ed4d2b;
   color: #fff;
   display: none;
   width: 40px;
@@ -3088,7 +3088,6 @@ p.copyright {
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   z-index: 9999;
-  border-radius: 25px;
 }
 
 .back-to-top:hover {
@@ -3277,7 +3276,7 @@ p.copyright {
   }
 
   .big-title-sec .big-subtitle {
-    font-size: 20px;
+    font-size: 28px;
   }
 
   .big-title-sec p {
